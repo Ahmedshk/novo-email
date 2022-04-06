@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+.container-fluid{
+    background-image: url('./images/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 300px;
+    max-height: 100px;
+    border: 1px solid #0000000f;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.logo_name{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+.logo_image{
+    position: relative;
+    width: 25px;
+}
+
+.novus{
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 600;
+    padding-left: 7px;
+    color: #204824;
+}
+
+.image_container {
+    border-right: 3px solid #204824;
+    height: 31px;
+    margin-bottom: 11px;
+}
+
+.jenson {
+    font-size: 8px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #204824;
+}
+
+.brook{
+    font-size: 8px;
+    font-family: poppins;
+     font-weight: 600;
+    color: #000;
+}
+
+.director_container {
+    border-right: 3px solid #204824;
+    width: 85px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 31px;
+    margin-bottom: 18px;
+    margin-right: 6px;
+}
+
+.address_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-phone,.fa-envelope,.fa-location-dot{
+    color: #204824;
+}
+
+.capital{
+    font-family: poppins;
+    font-size: 7px;
+    color: #204824;
+    position: relative;
+    bottom: 4px;
+    padding-left: 7px;
+}
+
+.text{
+    font-family: poppins;
+    font-size: 10px;
+}
+
+.director {
+    font-size: 7px;
+    font-family: roboto;
+    position: relative;
+    bottom: 8px;
+    font-weight: 600;
+}
+
+i{
+    font-size: 6px;
+    margin-right: 6px;
+    margin-top: 1px;
+}
+
+.address_container p{
+    font-size: 7px;
+    margin: 0;
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none !important;
+}
